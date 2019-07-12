@@ -1,0 +1,114 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>A Developer Centered Bug Prediction Model</title>
+  <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+  <link rel="stylesheet" type="text/css" href="../devconfusion/style/style.css" title="style" />
+</head>
+
+<body>
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+          <h1><a href="../devconfusion/index.html">A Developer Centered Bug Prediction Model<br><br>
+          <span class="logo_colour">Online Appendix</span></a></h1>
+        </div>
+      </div>
+      <div id="menubar">
+        <ul id="menu">
+          <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
+          <li class="selected"><a href="../devconfusion/index.html">Home</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="site_content">
+      <div class="sidebar">
+        <!-- insert your sidebar items here -->
+        <h3>Authors</h3>
+        <h4>Dario Di Nucci</h4>
+        <h5>University of Salerno, Italy</h5>
+        <p></p>
+        <h4>Fabio Palomba</h4>
+        <h5>University of Salerno, Italy</h5>
+        <p></p>
+        <h4>Giuseppe De Rosa</h4>
+        <h5>University of Salerno, Italy</h5>
+        <p></p>
+        <h4>Gabriele Bavota</h4>
+        <h5>Free University of Bozen-Bolzano, Italy</h5>
+        <p></p>
+        <h4>Rocco Oliveto</h4>
+        <h5>University of Molise, Italy</h5>
+        <p></p>
+        <h4>Andrea De Lucia</h4>
+        <h5>University of Salerno, Italy</h5>
+        <p></p>
+      </div>
+      <div id="content">
+        <!-- insert the page content here -->
+        <h1>Abstract</h1>
+        <p style="text-align: justify">
+            Several techniques have been proposed to accurately predict software defects. These techniques generally exploit
+characteristics of the code artefacts (i.e., product metrics like size, complexity, etc.) and/or of the process adopted in their development
+and maintenance (i.e., process metrics like the number of developers working on a code file) to spot out code components likely
+containing bugs. While these bug prediction models achieve good levels of accuracy, they mostly ignore the major role played by human-
+related factors in the introduction of bugs. Previous studies have demonstrated that focused developers are less prone to introduce
+defects than non focused developers. According to this observation, software components changed by focused developers should
+also be less error prone than software components changed by less focused developers. In this paper we capture this observation by
+measuring the scattering of changes performed by developers working on a software component and use this information to build a
+bug prediction model. Such a model has been evaluated on 26 systems and compared with three competitive prediction models. The
+achieved results show the superiority of our model, and the high complementarity of the defined scattering measures with respect to
+standard predictors commonly used in the literature.
+        </p>
+        
+        <h2>Experimental Material</h2>
+        <h3>Raw data</h3>
+        <ul>
+            <li>AMQ: <a href="raw_data/amq.zip">amq.zip</a></li>
+            <li>Ant: <a href="raw_data/ant.zip"">ant.zip</a></li>
+            <li>Aries: <a href="raw_data/aries.zip">aries.zip</a></li>
+            <li>Camel: <a href="raw_data/camel.zip">camel.zip</a></li>
+            <li>CXF: <a href="raw_data/cxf.zip">cxf.zip</a></li>
+            <li>Drill: <a href="raw_data/drill.zip">drill.zip</a></li>
+            <li>Falcon: <a href="raw_data/falcon.zip">falcon.zip</a></li>
+            <li>Felix: <a href="raw_data/felix.zip">felix.zip</a></li>
+            <li>JMeter: <a href="raw_data/jmeter.zip">jmeter.zip</a></li>
+            <li>JS2: <a href="raw_data/js2.zip">js2.zip</a></li>
+            <li>Log4j: <a href="raw_data/log4j.zip">log4j.zip</a></li>
+            <li>Lucene: <a href="raw_data/lucene.zip">lucene.zip</a></li>
+            <li>Oak: <a href="raw_data/oak.zip">oak.zip</a></li>
+            <li>OpenEJB: <a href="raw_data/openejb.zip">openejb.zip</a></li>
+            <li>OpenJPA: <a href="raw_data/openjpa.zip">openjpa.zip</a></li>
+            <li>Pig: <a href="raw_data/pig.zip">pig.zip</a></li>
+            <li>Pivot: <a href="raw_data/pivot.zip">pivot.zip</a></li>
+            <li>Poi: <a href="raw_data/poi.zip">poi.zip</a></li>
+            <li>Ranger: <a href="raw_data/ranger.zip">ranger.zip</a></li>
+            <li>Shinding: <a href="raw_data/shinding.zip">shinding.zip</a></li>
+            <li>Sling: <a href="raw_data/sling.zip">sling.zip</a></li>
+            <li>Sqoop: <a href="raw_data/sqoop.zip">sqoop.zip</a></li>
+            <li>SSHD: <a href="raw_data/sshd.zip">sshd.zip</a></li>
+            <li>Synapse: <a href="raw_data/synapse.zip">synapse.zip</a></li>
+            <li>Xerces2-J: <a href="raw_data/xerces2-j.zip">xerces2-j.zip</a></li>
+            <li>Whirr: <a href="raw_data/whirr.zip">whirr.zip</a></li>
+        </ul>
+        <h3>Classifier choice</h3>
+        <ul>
+            <li>Classifier analysis for Basic Code Change Model: <a href="classifier-analysis-BCCM.xlsx">classifier-analysis-BCCM.xlsx</a></li>
+            <li>Classifier analysis for Developer Model: <a href="classifier-analysis-DM.xlsx">classifier-analysis-DM.xlsx</a></li>
+            <li>Classifier analysis for Developer Changes Based Model: <a href="classifier-analysis-DCBM.xlsx">classifier-analysis-DCBM.xlsx</a></li>
+        </ul> 
+        <h3>Comparison between Basic Code Change Model and Changes Model</h3>
+        <ul>
+            <li>Comparison data: <a href='bccm-changes-analysis.xlsx'>bccm-changes-analysis.xlsx</a></li>
+       </ul>
+      </div>
+    </div>
+    <div id="content_footer"></div>
+    <div id="footer">
+    </div>
+  </div>
+<div style="text-align: center; font-size: 0.75em;">Design downloaded from <a href="http://www.freewebtemplates.com/">free website templates</a>.</div></body>
+</html>

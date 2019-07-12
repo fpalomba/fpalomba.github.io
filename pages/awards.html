@@ -1,0 +1,141 @@
+<div id="awards_div">
+    
+    <p class="title">
+        Best Paper Honorable Mention
+    </p>
+    
+    <p class="subtitle">
+        21st ACM Conference on Computer Supported Cooperative Work <br>
+        “Information Needs in Contemporary Code Review”
+    </p>
+    
+    <p class="cite"> </p>
+    
+    <p class="text">
+        “Contemporary code review is a widespread practice used by software engineers to maintain high software quality and share project knowledge. However, conducting proper code review takes time and developers often have limited time for review. In this paper, we aim at investigating the information that reviewers need to conduct a proper code review, to better understand this process and how research and tool support can make developers become more effective and efficient reviewers. Previous work has provided evidence that a successful code review process is one in which reviewers and authors actively participate and collaborate. In these cases, the threads of discussions that are saved by code review tools are a precious source of information that can be later exploited for research and practice. In this paper, we focus on this source of information as a way to gather reliable data on the aforementioned reviewers’ needs. We manually analyze 900 code review comments from three large open-source projects and organize them in categories by means of a card sort. Our results highlight the presence of seven high-level information needs, such as knowing the uses of methods and variables declared/modified in the code under review. Based on these results we suggest ways in which future code review tools can better support collaboration and the reviewing task".
+    </p>
+    
+    <p class="title">
+        IEEE/TCSE Distinguished Paper Award
+    </p>
+    
+    <p class="subtitle">
+        33rd International Conference on Software Maintenance and Evolution for the paper <br>
+        “Does Refactoring of Test Smells Induce Fixing Flaky Tests?”
+    </p>
+    
+    <p class="cite"> </p>
+    
+    <img id="award_img" src="images/DPA-ICSME.png">
+    
+    <p class="text">
+        “Regression testing is a core activity that allows devel- opers to ensure that source code changes do not introduce bugs. An important prerequisite then is that test cases are deterministic. However, this is not always the case as some tests suffer from so- called flakiness. Flaky tests have serious consequences, as they can hide real bugs and increase software inspection costs. Existing research has focused on understanding the root causes of test flakiness and devising techniques to automatically fix flaky tests; a key area of investigation being concurrency. In this paper, we investigate the relationship between flaky tests and three previously defined test smells, namely Resource Optimism, Indirect Testing and Test Run War. We have set up a study involving 19,532 JUnit test methods belonging to 18 software systems. A key result of our investigation is that 54% of tests that are flaky contain a test code smell that can cause the flakiness. Moreover, we found that refactoring the test smells not only removed the design flaws, but also fixed all 54% of flaky tests causally co-occurring with test smells."
+    </p>
+
+    <p class="title">
+        ACM/SIGSOFT Distinguished Paper Award
+    </p>
+    
+    <p class="subtitle">
+        37th International Conference on Software Engineering for the paper <br>
+        “When and Why Your Code Starts to Smell Bad”
+    </p>
+    
+    <p class="cite"> </p>
+    
+    <img id="award_img" src="images/DPA-ICSE.png">
+    
+    <p class="text">
+        “In past and recent years, the issues related to managing technical debt received significant attention by 
+        researchers from both industry and academia. There are several factors that contribute to technical debt. 
+        One of these is represented by bad code smells, i.e., symptoms of poor design and implementation choices. 
+        While the repercussions of smells on code quality have been empirically assessed, there is still only 
+        anecdotal evidence on when and why bad smells are introduced. To fill this gap, we conducted a large empirical
+        study over the change history of 200 open source projects from different software ecosystems and investigated 
+        when bad smells are introduced by developers, and the circumstances and reasons behind their introduction. 
+        Our study required the development of a strategy to identify smell-introducing commits, the mining of over 
+        0.5M commits, and the manual analysis of 9,164 of them (i.e., those identified as smell-introducing). 
+    </p>
+    
+    <p class="text">
+        Our findings mostly contradict common wisdom stating that smells are being introduced during evolutionary tasks. 
+        In the light of our results, we also call for the need to develop a new generation of recommendation systems 
+        aimed at properly planning smell refactoring activities."
+    </p>
+
+    
+    <p class="title">
+        ACM/SIGSOFT Distinguished Paper Award
+    </p>
+    
+    <p class="subtitle">
+        28th International Conference on Automated Software Engineering for the paper <br>
+        “Detecting Bad Smells in Source Code using Change History Information”
+    </p>
+    
+    <p class="cite"> </p>
+    
+    <img id="award_img" src="images/DPA-ASE.jpg">
+    
+    <p class="text">
+        “Code smells represent symptoms of poor implementation choices. Previous studies found that these smells make 
+        source code more difficult to maintain, possibly also increasing its fault-proneness. There are several 
+        approaches that identify smells based on code analysis techniques. However, we observe that many code smells 
+        are intrinsically characterized by how code elements change over time. Thus, relying solely on structural 
+        information may not be sufficient to detect all the smells accurately. We propose an approach to detect five 
+        different code smells, namely Divergent Change, Shotgun Surgery, Parallel Inheritance, Blob, and Feature Envy, 
+        by exploiting change history information mined from versioning systems. We applied the approach, coined as HIST 
+        (Historical Information for Smell deTection), to eight software projects written in Java, and wherever possible 
+        compared with existing state-of-the-art smell detectors based on source code analysis."
+    </p>
+    
+    <p class="text">
+        The results indicate that HIST’s precision ranges between 61% and 80%, and its recall ranges between 61% and 
+        100%. More importantly, the results confirm that HIST is able to identify code smells that cannot be identified 
+        through approaches solely based on code analysis.”
+    </p>
+    
+    <p class="title">
+        Best Tool Demo Paper Award
+    </p>
+    
+    <p class="subtitle">
+        25th IEEE International Conference on Software Analysis, Evolution and Reengineering <br>
+        “BECLoMA: Augmenting Stack Traces with User Review Information”
+    </p>
+    
+    <p class="cite"> </p>
+    
+    <p class="text">
+        “Mobile devices such as smartphones, tablets and wearables are changing the way we do things, radically modifying our approach to technology. To sustain the high competition characterizing the mobile market, developers need to deliver high quality applications in a short release cycle. To reveal and fix bugs as soon as possible, researchers and practitioners proposed tools to automate the testing process. However, such tools generate a high number of redundant inputs, lacking of contextual information and generating reports difficult to analyze. In this context, the content of user reviews represents an unmatched source for developers seeking for defects in their applications. However, no prior work explored the adoption of information available in user reviews for testing purposes. In this demo we present BECLOMA, a tool to enable the integration of user feedback in the testing process of mobile apps. BECLOMA links information from testing tools and user reviews, presenting to developers an augmented testing report combining stack traces with user reviews information referring to the same crash. We show that BECLOMA facilitates not only the diagnosis and fix of app bugs, but also presents additional benefits: it eases the usage of testing tools and automates the analysis of user reviews from the Google Play Store."
+    </p>
+    
+    <p class="title">
+        ACM Student Research Competition
+    </p>
+    
+    <p class="subtitle">
+        Bronze Medal at the ACM Student Research Competition for the paper <br>
+        “Textual Analysis for Code Smell Detection”
+    </p>
+    
+    <p class="cite"> </p>
+    
+    <img id="award_img" src="images/SRC-medal.png">
+    
+    <p class="text">
+        “The negative impact of smells on the quality of a software systems has been empirical investigated in several studies. This has recalled the need to have approaches for the identification and the removal of smells. While approaches to remove smells have investigated the use of both structural and conceptual information extracted from source code, approaches to identify smells are based on structural information only. In this paper, we bridge the gap analyzing to what extent conceptual information, extracted using textual analysis techniques, can be used to identify smells in source code. The proposed textual-based approach for detecting smells in source code, coined as TACO (Textual Analysis for Code smell detectiOn), has been instantiated for detecting the Long Method smell and has been evaluated on three Java open source projects. The results indicate that TACO is able to detect between 50% and 77% of the smell instances with a precision ranging between 63% and 67%. In addition, the results show that TACO identifies smells that are not identified by approaches based on solely structural information."
+    </p>
+    
+</div>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-55444259-1', 'auto');
+  ga('send', 'pageview');
+
+</script>

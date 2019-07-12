@@ -1,0 +1,69 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>One Ring to Rule Them All: A Textual-based Technique for Code and Test Smells Detection</title>
+  <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+  <link rel="stylesheet" type="text/css" href="../devconfusion/style/style.css" title="style" />
+</head>
+
+<body>
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+          <h1><a href="../TACO/index.html">One Ring to Rule Them All<br>A Textual-based Technique for Code and Test Smells Detection<br><br>
+          <span class="logo_colour">Online Appendix</span></a></h1>
+        </div>
+      </div>
+      <div id="menubar">
+        <ul id="menu">
+          <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
+          <li class="selected"><a href="../TACO/index.html">Home</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="site_content">
+      <div class="sidebar">
+        <!-- insert your sidebar items here -->
+        <h3>Authors</h3>
+        <h4>Fabio Palomba</h4>
+        <h5>University of Salerno, Italy</h5>
+        <p></p>
+        <h4>Annibale Panichella</h4>
+        <h5>TU Delft, The Netherlands</h5>
+        <p></p>
+        <h4>Andrea De Lucia</h4>
+        <h5>University of Salerno, Italy</h5>
+        <p></p>
+        <h4>Rocco Oliveto</h4>
+        <h5>University of Molise, Italy</h5>
+        <p></p>
+        <h4>Andy Zaidman</h4>
+        <h5>TU Delft, The Netherlands</h5>
+        <p></p>
+      </div>
+      <div id="content">
+        <!-- insert the page content here -->
+        <h1>Abstract</h1>
+        <p style="text-align: justify">
+        Bad smells are symptoms of poor design or imple- mentation choises that may affect both production and test code. Several previous studies demonstrated the huge impact of these smells on change- and fault-proneness, comprehensibility and, more in general, on maintainability. These are the reasons why researchers spent a lot of effort on the definition of metrics-based techniques able to detect them by exploiting structural properties of the source code. However, code and test smell detection have always been treated as separate problems, since for detecting different smells, different tools relying on a different ah-hoc set of metrics are required. To going over such limitations, we propose a textual-based smell detector able to detect both code and test smells through IR methods measuring the probability that a code component is affected by a given smell. We run the proposed approach, named TACO (Textual Analysis for Code Smell Detection), on 20 open source projects, comparing its performances with existing state-of-the-art smell detectors purely based on structural analysis. Our findings indicate that TACO's precision ranges between 57% and 75%, while its recall ranges between 68% and 85%. Moreover, we observed that the proposed detector often outperforms competitive structural approaches, being able to identify smell instances that can not be detected by solely using structural analysis.</p>
+        
+        <h2>Experimental Material</h2>
+        <h3>Raw Data</h3>
+        <ul>
+        
+	        <li><a href="onlineAppendix/appendix.pdf">Appendix containing the complete results achieved in our study</a></li>      
+            <li><a href="onlineAppendix/parameter-calibration.xlsx">Calibration of the TACO's Threshold</a></li>
+            <li><a href="onlineAppendix/accuracy-evaluation.zip">Identified Smells and Oracles</a></li>      
+            
+        </ul>
+      </div>
+    </div>
+    <div id="content_footer"></div>
+    <div id="footer">
+    </div>
+  </div>
+<div style="text-align: center; font-size: 0.75em;">Design downloaded from <a href="http://www.freewebtemplates.com/">free website templates</a>.</div></body>
+</html>

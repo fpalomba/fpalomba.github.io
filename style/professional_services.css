@@ -1,0 +1,23 @@
+.professional_services_div{
+    float: left;
+    width: calc(100% - 60px);
+    margin-left: 30px;
+}
+
+.professional_services_title{
+    color: #900000;
+}
+
+.link, .link:visited, .link:active, .link:hover {
+    text-decoration: none;
+    color: #900000;
+}
+
+.subtitle_peofoessional_services{
+    font-family: gill-sans;
+    font-size: 25px;
+    color: #900000;
+    margin: 10px 0px;
+}
+
+

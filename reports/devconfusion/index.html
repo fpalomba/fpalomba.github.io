@@ -1,0 +1,91 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>Don&rsquo;t Multitask! The Role of Developer's Confusion in Defect Prediction</title>
+  <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+  <link rel="stylesheet" type="text/css" href="../devconfusion/style/style.css" title="style" />
+</head>
+
+<body>
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+          <h1><a href="../devconfusion/index.html">Don&rsquo; t Multitask! The Role of Developer's Confusion in Defect Prediction<br><br>
+          <span class="logo_colour">Online Appendix</span></a></h1>
+        </div>
+      </div>
+      <div id="menubar">
+        <ul id="menu">
+          <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
+          <li class="selected"><a href="../devconfusion/index.html">Home</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="site_content">
+      <div class="sidebar">
+        <!-- insert your sidebar items here -->
+        <h3>Authors</h3>
+        <h4>Dario Di Nucci</h4>
+        <h5>University of Salerno, Italy</h5>
+        <p></p>
+        <h4>Fabio Palomba</h4>
+        <h5>University of Salerno, Italy</h5>
+        <p></p>
+        <h4>Sandro Siravo</h4>
+        <h5>University of Molise, Italy</h5>
+        <p></p>
+        <h4>Gabriele Bavota</h4>
+        <h5>Free University of Bozen-Bolzano, Italy</h5>
+        <p></p>
+        <h4>Rocco Oliveto</h4>
+        <h5>University of Molise, Italy</h5>
+        <p></p>
+        <h4>Andrea De Lucia</h4>
+        <h5>University of Salerno, Italy</h5>
+        <p></p>
+      </div>
+      <div id="content">
+        <!-- insert the page content here -->
+        <h1>Abstract</h1>
+        <p style="text-align: justify">
+        The complexity of software systems has grown exponentially in the last years, pushing developers to face more challenging tasks
+                during evolution and maintenance activities. The developers&rsquo; ability to cope with a task might be hindered when it impacts several
+                software components possibly spread across different subsystems. In this paper, we propose two measures capturing the structural and semantic distance between the components a developer is working
+                on in a given time period. We call these measures structural and semantic confusion and we hypothesize that they have an impact on
+                the likelihood of introducing defects during code change activities. To validate our conjecture, we use the defined measures to build a bug prediction model. We evaluated our model on five open source
+                systems and compared it with two competitive techniques: the first is a prediction model exploiting the change-proneness of code
+                components as predictor variable while the second is the Basic Code Change Model proposed by Hassan and using code change
+                entropy information. The achieved results show the superiority of our model with respect to the two competitive approaches, and
+                the orthogonality of the defined confusion measures with respect to standard predictors commonly used in the literature.
+        </p>
+        
+        <h2>Experimental Material</h2>
+        <h3>Raw data</h3>
+        <ul>
+            <li>Apache Ant: <a href="apache-ant.zip">apache-ant.zip</a></li>
+            <li>Apache Poi: <a href="apache-poi.zip">apache-poi.zip</a></li>
+            <li>Log4j: <a href="log4j.zip">log4j.zip</a></li>
+            <li>JMeter: <a href="jmeter.zip">jmeter.zip</a></li>
+            <li>Xerces2-j: <a href="xerces2-j.zip">xerces2-j.zip</a></li>
+        </ul>
+        <h3>Classifier choice</h3>
+        <ul>
+            <li>Classifier analysis for Basic Code Change Model: <a href="classifier-analysis-BCCM.xlsx">classifier-analysis-BCCM.xlsx</a></li>
+            <li>Classifier analysis for Developer Model: <a href="classifier-analysis-DM.xlsx">classifier-analysis-DM.xlsx</a></li>
+            <li>Classifier analysis for Developer Changes Based Model: <a href="classifier-analysis-DCBM.xlsx">classifier-analysis-DCBM.xlsx</a></li>
+        </ul> 
+        <h3>Comparison between Basic Code Change Model and Changes Model</h3>
+        <ul>
+            <li>Comparison data: <a href='bccm-changes-analysis.xlsx'>bccm-changes-analysis.xlsx</a></li>
+       </ul>
+      </div>
+    </div>
+    <div id="content_footer"></div>
+    <div id="footer">
+    </div>
+  </div>
+<div style="text-align: center; font-size: 0.75em;">Design downloaded from <a href="http://www.freewebtemplates.com/">free website templates</a>.</div></body>
+</html>
