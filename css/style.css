@@ -1266,7 +1266,14 @@ ul.marquee li {
     -moz-perspective: 800px;
     -webkit-perspective: 800px;
     perspective: 800px;
-    z-index: 999;
+}
+
+.publication-section .card-drop{
+      z-index: 999 !important;
+}
+
+.publication-section .card-drop-tag{
+      z-index: 800 !important;
 }
 
 .publication-section .card-drop a,
@@ -1297,7 +1304,7 @@ ul.marquee li {
     font-family: Montserrat;
     line-height: 37px;
     position: relative;
-    z-index: 300;
+    z-index: 999;
     -moz-backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
@@ -1314,7 +1321,10 @@ ul.marquee li {
     transition: 0.1s linear;
     background-color: #f2f2f4;
 }
-
+.publication-section .card-drop-tag > a.toggle{
+    z-index: 800 !important;
+}    
+    
 .publication-section .card-drop>a.toggle:active,
 .publication-section .card-drop-tag>a.toggle:active{
     -moz-transform: rotateX(60deg);
@@ -1768,6 +1778,7 @@ ul.marquee li {
     border-radius: 0;
     margin-right: 2px;
     padding: 5px;
+    float: left;
 }
 
 .publication-section .recommended,
@@ -3558,7 +3569,7 @@ screen and (max-height: 300px) {
     .hs-menu {
         position: relative;
         width: 100%;
-        height: 320px;
+        height: 420px;
         left: 0;
     }
     .hs-headline {
